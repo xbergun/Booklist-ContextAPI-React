@@ -1,7 +1,8 @@
 import React from "react"
-import './App.css';
+import BookList from "./BookList";
 
 class App extends React.Component() {
+
   state={
     books:[
       {      
@@ -48,11 +49,12 @@ class App extends React.Component() {
       }
     ]
   }
+  
 
 render(){
   return (
-    <div className="App">
-     
+    <div>
+     <BookList books={this.state.books} />
     </div>
   );
 }
