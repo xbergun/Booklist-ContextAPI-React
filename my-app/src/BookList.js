@@ -20,7 +20,7 @@ export default class BookList extends React.Component {
                             </div>
                             <div className="row">
         
-                    
+                            {bookList}
         
                             </div>
                         </div>
